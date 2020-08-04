@@ -34,6 +34,8 @@ public class File {
         this.folder = folder;
     }
 
+    public File() {}
+
     public Long getId() {
         return id;
     }
@@ -73,5 +75,5 @@ public class File {
     public void setFolder(Folder folder) {
         this.folder = folder;
     }
-    
+
 }
