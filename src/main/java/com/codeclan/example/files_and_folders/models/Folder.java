@@ -27,7 +27,7 @@ public class Folder {
     @JsonBackReference
     private List<File> files;
 
-    public Folder(String title, User user, List<File> files) {
+    public Folder(String title, User user) {
         this.title = title;
         this.user = user;
         this.files = new ArrayList<>();
